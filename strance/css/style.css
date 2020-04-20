@@ -1,13 +1,211 @@
 /*  navbar heading tabs   */
 
+/* /* .navbar .navbar-brand  */
 .navbar .navbar-brand {
     color: rgba(255, 255, 255, 0.85);
     font-size: 1rem;
   }
 
+  h1 {
+    color: blue;
+    text-align: center;
+
+  }
+  .collMargin {
+    -webkit-margin-bottom-collapse: separate;
+    -webkit-margin-top-collapse: separate;
+    margin:20px;
+}
+
   /* Jumbotron layout */
   
   .jumbotron {
-    background-image: url('../img/jumbo-bg.jpg');
+    background-image: url('./image/groupinblack.jpg');
     background-size: cover;
   }
+
+.container-fluid {
+    flex-flow: row nowrap;
+}
+div.container {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+div .tr-1 {
+  position:absolute;
+  background-color:red; 
+  bottom: 10px; 
+  left: 65px;
+  z-index:auto;
+  width: 100px;
+  height: 100px;
+}
+div .tr-2 { 
+  position:absolute; 
+  background-color:green;
+  bottom: -20px; 
+  left: 95px;
+  z-index:1;
+  width: 100px;
+  height: 100px;
+}
+div .tr-3 { 
+  position:absolute; 
+  background-color:blue;
+  bottom: -60px; 
+  left: 125px;
+  z-index:2;
+  width: 100px;
+  height: 100px;
+}
+div .tr-4 { 
+  position:absolute; 
+  background-color:purple;
+  bottom: -100px; 
+  left: 155px;
+  z-index:3;
+  width: 100px;
+  height: 100px;
+}
+div .tr-5 { 
+  position:absolute; 
+  background-color:orange;
+  bottom: -130px; 
+  left: 195px;
+  z-index:4;
+  width: 100px;
+  height: 100px;
+}
+div .tr-6 { 
+  position:absolute; 
+  background-color:teal;
+  bottom: -160px; 
+  left: 225px;
+  z-index:5;
+  width: 100px;
+  height: 100px;
+} 
+div .tr-7 { 
+  position:absolute; 
+  background-color:white;
+  bottom: -190px; 
+  left: 255px;
+  z-index:6;
+  width: 100px;
+  height: 100px;
+} 
+div .tl-1 {
+  position:absolute;
+  background-color:red; 
+  bottom: 10px;
+  right: 65px;
+  z-index:auto;
+  width: 100px;
+  height: 100px;
+}
+div .tl-2 { 
+  position:absolute; 
+  background-color:green;
+  bottom: -20px; 
+  right: 95px;
+  z-index:1;
+  width: 100px;
+  height: 100px;
+}
+div .tl-3 { 
+  position:absolute; 
+  background-color:blue;
+  bottom: -60px;  
+  right: 125px;
+  z-index:2;
+  width: 100px;
+  height: 100px;
+}
+div .tl-4 { 
+  position:absolute; 
+  background-color:purple;
+  bottom: -100px; 
+  right: 155px;
+  z-index:3;
+  width: 100px;
+  height: 100px;
+}
+div .tl-5 { 
+  position:absolute; 
+  background-color:orange;
+  bottom: -130px; 
+  right: 195px;
+  z-index:4;
+  width: 100px;
+  height: 100px;
+}
+div .tl-6 { 
+  position:absolute; 
+  background-color:teal;
+  bottom: -160px; 
+  right: 225px;
+  z-index:5;
+  width: 100px;
+  height: 100px;
+} 
+div .tl-7 { 
+  position:absolute; 
+  background-color:white;
+  bottom: -190px; 
+  right: 255px;
+  z-index:6;
+  width: 100px;
+  height: 100px;
+}
+
+
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
