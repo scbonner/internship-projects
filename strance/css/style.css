@@ -2,21 +2,31 @@
 
 /* /* .navbar .navbar-brand  */
 .navbar .navbar-brand {
-    color: rgba(255, 255, 255, 0.85);
+    /* color: rgba(255, 255, 255, 0.85); */
+   color: tomato;
     font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    
+  }
+  .nav-item {
+    color : tomato;
+    font-weight: bold;
   }
 
   h1 {
     color: blue;
     text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    padding-top: 40px;
+    margin-bottom: 20px;
 
   }
-  .collMargin {
-    -webkit-margin-bottom-collapse: separate;
-    -webkit-margin-top-collapse: separate;
-    margin:20px;
-}
-
+  hr {
+      color: blue;
+      font-weight: bold;
+  }
   /* Jumbotron layout */
   
   .jumbotron {
@@ -24,9 +34,9 @@
     background-size: cover;
   }
 
-.container-fluid {
+/* .container-fluid {
     flex-flow: row nowrap;
-}
+} */
 div.container {
   margin-left: 50px;
   margin-top: 20px;
