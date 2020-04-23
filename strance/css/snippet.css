@@ -1,61 +1,217 @@
-*/
     
-/* =====================================
-======================================
-           FLIP CARD      ===================== ============= */
-           .flipCard {
-            -webkit-perspective: 800;
-            -ms-perspective: 800;
-            -moz-perspective: 800;
-            -o-perspective: 800;
-             width: 400px;
-             height: 200px;
-             position: relative;
-             margin: 50px auto;
-          }
-          .flipCard .card.flipped {
-            transform:rotatey(-180deg);
-            -ms-transform:rotatey(-180deg); /* IE 9 */
-            -moz-transform:rotatey(-180deg); /* Firefox */
-            -webkit-transform:rotatey(-180deg); /* Safari and Chrome */
-            -o-transform:rotatey(-180deg); /* Opera */
-          }
-          .flipCard .card {
-            width: 100%;
-            height: 100%;
-            -webkit-transform-style: preserve-3d;
-            -webkit-transition: 0.5s;
-            -moz-transform-style: preserve-3d;
-            -moz-transition: 0.5s;
-            -ms-transform-style: preserve-3d;
-            -ms-transition: 0.5s;
-            -o-transform-style: preserve-3d;
-            -o-transition: 0.5s;
-            transform-style: preserve-3d;
-            transition: 0.5s;
-          }
-          .flipCard .card .side {
-            width: 100%;
-            height: 100%;
-            padding: 10px;
-            cursor: pointer;
-            position: absolute;
-            box-sizing: border-box;
-            z-index: 2;
-            backface-visibility: hidden;  /* W3C */
-            -webkit-backface-visibility: hidden; /* Safari & Chrome */
-            -moz-backface-visibility: hidden; /* Firefox */
-            -ms-backface-visibility: hidden; /* Internet Explorer */
-            -o-backface-visibility: hidden; /* Opera */
-            box-shadow: 0 0 10px rgba(0,0,0,0.6);
-            overflow: auto;
-          }
-          .flipCard .card .back {
-            background: white;
-            color: black;
-            transform:rotatey(-180deg);
-            -ms-transform:rotatey(-180deg); /* IE 9 */
-            -moz-transform:rotatey(-180deg); /* Firefox */
-            -webkit-transform:rotatey(-180deg); /* Safari and Chrome */
-            -o-transform:rotatey(-180deg); /* Opera */
-          }
+
+a:hover {
+    background-color: #FFFFCC;
+    font-weight: bold;
+}
+
+h1  {
+        margin: auto;
+}
+ p {
+    background-color: #FFFFCC;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.flipCard {
+-webkit-perspective: 800;
+-ms-perspective: 800;
+-moz-perspective: 800;
+-o-perspective: 800;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    margin: 50px auto;
+}
+.flipCard .card.flipped {
+transform:rotatey(-180deg);
+-ms-transform:rotatey(-180deg); /* IE 9 */
+-moz-transform:rotatey(-180deg); /* Firefox */
+-webkit-transform:rotatey(-180deg); /* Safari and Chrome */
+-o-transform:rotatey(-180deg); /* Opera */
+}
+.flipCard .card {
+width: 100%;
+height: 100%;
+-webkit-transform-style: preserve-3d;
+-webkit-transition: 0.5s;
+-moz-transform-style: preserve-3d;
+-moz-transition: 0.5s;
+-ms-transform-style: preserve-3d;
+-ms-transition: 0.5s;
+-o-transform-style: preserve-3d;
+-o-transition: 0.5s;
+transform-style: preserve-3d;
+transition: 0.5s;
+}
+.flipCard .card .side {
+width: 100%;
+height: 100%;
+padding: 10px;
+cursor: pointer;
+position: absolute;
+box-sizing: border-box;
+z-index: 2;
+backface-visibility: hidden;  /* W3C */
+-webkit-backface-visibility: hidden; /* Safari & Chrome */
+-moz-backface-visibility: hidden; /* Firefox */
+-ms-backface-visibility: hidden; /* Internet Explorer */
+-o-backface-visibility: hidden; /* Opera */
+box-shadow: 0 0 10px rgba(0,0,0,0.6);
+overflow: auto;
+}
+.flipCard .card .back {
+background: white;
+color: black;
+transform:rotatey(-180deg);
+-ms-transform:rotatey(-180deg); /* IE 9 */
+-moz-transform:rotatey(-180deg); /* Firefox */
+-webkit-transform:rotatey(-180deg); /* Safari and Chrome */
+-o-transform:rotatey(-180deg); /* Opera */
+}
+
+.card  {
+   flex-wrap: wrap;    
+   margin: 10px; 
+   border: 5px solid lightgrey;
+   width: 100;
+   height: 200px;
+   background-color: #FFF8DC;
+ }
+ 
+  .container-container-border {
+   border: 5px solid lightgrey;
+   margin: 15px 15px;
+  }
+  
+   .card-title-yoga { 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-style: italic;
+} 
+
+  .card-title-tribal { 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-style: italic;
+   
+  } 
+
+  .card-title-contemporary { 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-style: italic;
+  } 
+
+  .card-title-ballet { 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-style: italic;
+  } 
+
+  .card-title-hiphop { 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-style: italic;
+  } 
+
+  .card-title-arial { 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-style: italic;
+  } 
+
+  .card-title-pilates { 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-style: italic;
+   text-align: center;
+  } 
+
+  .card-title-barre { 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-style: italic;
+
+
+  } 
+
+  .some-page-wrapper {
+    display: flex;
+    margin: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  /* .flex-row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+   .flex-col {
+    margin: 6px;
+    padding: 16px;
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    color: white;
+    box-sizing:border-box;
+  }  */ */
+
+
+
+  
+  @media (max-width:767px) {
+    .flex-col {
+      flex-basis: calc(50% - 12px);
+    }
+  }
+  
+  @media (max-width:460px) {
+    .flex-col {
+      flex-basis: 100%;
+    }
+  }
