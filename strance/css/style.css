@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
   }
 
@@ -28,22 +28,26 @@
 
   }
 
-  h1 {
+h1  {
     color: grey;
     text-align: center;
     font-weight: bold;
     margin-top: 50px;
     padding-top: 40px;
     margin-bottom: 20px;
+    margin: auto;
 
   }
 
-
   #img-pictures  {
-        /* border: solid black; */
+        border: solid black; 
         margin: auto;
         padding: 10px 10px;
 
+  }
+
+  img:hover {
+    background-color: rgb(231, 226, 198);
   }
 
   .card  {
@@ -334,8 +338,5 @@ div .tl-7 {
       max-width: 100%;
     }
 
-
-  }
-    
 
   
