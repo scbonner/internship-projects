@@ -1,0 +1,270 @@
+<html lang="en"><head>
+    <!--Copyright 101Computing.net -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-24638485-49"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+   
+     gtag('config', 'UA-24638485-49');
+   </script>
+     <meta charset="UTF-8">
+     <title>Programming Concepts: Periodic Table</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+     <link rel="stylesheet" href="css/style.css"> 
+     <script>
+     function show(el){
+     if (document.getElementById(el).style.display=="block") {
+     document.getElementById(el).style.display="none";
+     } else {
+     document.getElementById(el).style.display="block";
+     }
+     }
+     function hide(el){
+     document.getElementById(el).style.display="none";
+     }
+     
+     </script>
+   </head>
+   <body>
+   <!-- by 101Computing.net - www.101computing.net/periodic-table/ -->
+   <div style="width: 1100px; margin: 30px auto 70px;">  
+   <div class="periodic-table">
+     <div class="empty-spacer-1"><h1>Key Programming Concepts </h1>
+   <h2>Periodic Table</h2></div>
+     <div class="empty-spacer-2"></div>
+     <div class="periodic-element yellow" onclick="show('desc1');" onmouseleave="hide('desc1');">
+       <div class="periodic-element-inner">
+         <div class="title">Va</div>
+         <div class="description">Variable</div>
+       </div>
+       <div id="desc1" class="desc">In a program, a variable <b>holds a value in memory</b>. This value <b>can change</b>.</div>
+     </div>
+   
+     <div class="periodic-element yellow" onclick="show('desc2');" onmouseleave="hide('desc2');">
+       <div class="periodic-element-inner">
+         <div class="title">Co</div>
+         <div class="description">Constant</div>
+       </div>
+        <div id="desc2" class="desc">In a program, a constant <b>holds a value in memory</b>. This value <b>cannot change</b>.</div>
+      </div>
+   
+     <div class="periodic-element blue" onclick="show('desc3');" onmouseleave="hide('desc3');">
+       <div class="periodic-element-inner">
+         <div class="title">Se</div>
+         <div class="description">Sequence</div>
+       </div>
+       <div id="desc3" class="desc">A set of instructions that are executed <b>in order, one at a time.</b>.</div>
+     </div>
+     <div class="periodic-element blue" onclick="show('desc4');" onmouseleave="hide('desc4');">
+       <div class="periodic-element-inner">
+         <div class="title">It</div>
+         <div class="description">Iteration</div>
+       </div>
+       <div id="desc4" class="desc">Using a <b>loop</b> in a program to <b>repeat</b> the execution of a block of code several times.</div>
+     </div>
+     <div class="periodic-element blue" onclick="show('desc5');" onmouseleave="hide('desc5');">
+       <div class="periodic-element-inner">
+         <div class="title">Br</div>
+         <div class="description">Branching / Selection</div>
+       </div>
+       <div id="desc5" class="desc">Branching a.k.a selection is when when an <b>if statement</b> is used to decide if a block of code needs to be executed.</div>
+     </div>
+     <div class="periodic-element yellow" onclick="show('desc6');" onmouseleave="hide('desc6');">
+       <div class="periodic-element-inner">
+         <div class="title">In</div>
+         <div class="description">Integer</div>
+       </div>
+       <div id="desc6" class="desc">A data type for <b>whole numbers</b> e.g. 7 or -200</div>
+     </div>
+     <div class="periodic-element yellow" onclick="show('desc7');" onmouseleave="hide('desc7');">
+       <div class="periodic-element-inner">
+         <div class="title">Fl</div>
+         <div class="description">Float</div>
+       </div>
+       <div id="desc7" class="desc">A data type for <b>decimal numbers</b> e.g. 3.14</div>
+     </div>
+     <div class="periodic-element yellow" onclick="show('desc8');" onmouseleave="hide('desc8');">
+       <div class="periodic-element-inner">
+         <div class="title">St</div>
+         <div class="description">String</div>
+       </div>
+       <div id="desc8" class="desc">A data type for <b>text</b>: a string is a collection of characters.</div>
+     </div>
+     <div class="periodic-element yellow" onclick="show('desc9');" onmouseleave="hide('desc9');">
+       <div class="periodic-element-inner">
+         <div class="title">Bo</div>
+         <div class="description">Boolean</div>
+       </div>
+       <div id="desc9" class="desc">A data type for <b>True</b> or <b>False</b> values.</div>	
+     </div>
+     <div class="periodic-element blue" onclick="show('desc10');" onmouseleave="hide('desc10');">
+       <div class="periodic-element-inner">
+         <div class="title">Fo</div>
+         <div class="description">For Loop</div>
+       </div>
+       <div id="desc10" class="desc">A <b>count-controlled loop</b> that repeats a section of code a fixed number of times.</div>	
+     </div>
+     <div class="periodic-element blue" onclick="show('desc11');" onmouseleave="hide('desc11');">
+       <div class="periodic-element-inner">
+         <div class="title">Wh</div>
+         <div class="description">While Loop</div>
+       </div>
+       <div id="desc11" class="desc">A <b>condition-controlled loop</b> that repeats a section of code while a condition is true.</div>
+     </div>
+     <div class="periodic-element blue" onclick="show('desc12');" onmouseleave="hide('desc12');">
+       <div class="periodic-element-inner">
+         <div class="title">Re</div>
+         <div class="description">Repeat Until</div>
+       </div>
+       <div id="desc12" class="desc">A <b>condition-controlled loop</b> that repeats a section of code up until a condition is met.</div>
+     </div>
+     <div class="periodic-element blue" onclick="show('desc13');" onmouseleave="hide('desc13');">
+       <div class="periodic-element-inner">
+         <div class="title">If</div>
+         <div class="description">If Statement</div>
+       </div>
+       <div id="desc13" class="desc">When a condition is checked to decide if a block of code will be executed.</div>
+     </div>
+     <div class="periodic-element blue" onclick="show('desc14');" onmouseleave="hide('desc14');">
+       <div class="periodic-element-inner">
+         <div class="title">Se</div>
+         <div class="description">Select Case</div>
+       </div>
+       <div id="desc14" class="desc">An alternative to IF, ELSE IF code used to check multiple possible values of a variable.</div>
+     </div>
+     <div class="periodic-element red" onclick="show('desc15');" onmouseleave="hide('desc15');">
+       <div class="periodic-element-inner">
+         <div class="title">In</div>
+         <div class="description">Input</div>
+       </div>
+       <div id="desc15" class="desc">Retrieving a user input e.g.<br><em>username = INPUT("Enter your username")</em></div>
+     </div>
+     <div class="periodic-element red" onclick="show('desc16');" onmouseleave="hide('desc16');">
+       <div class="periodic-element-inner">
+         <div class="title">Ou</div>
+         <div class="description">Output</div>
+       </div>
+       <div id="desc16" class="desc">When a program produces an output such as displaying a message on screen. e.g.<br><em>PRINT("Game Over")</em></div>
+     </div>
+     <div class="periodic-element red" onclick="show('desc17');" onmouseleave="hide('desc17');">
+       <div class="periodic-element-inner">
+         <div class="title">Ca</div>
+         <div class="description">Casting</div>
+       </div>
+       <div id="desc17" class="desc">Converting a value from one data type to another using functions such as <em>str()</em>, <em>int()</em> or <em>float()</em>.</div>
+     </div>
+     <div class="periodic-element red" onclick="show('desc18');" onmouseleave="hide('desc18');">
+       <div class="periodic-element-inner">
+         <div class="title">Sm</div>
+         <div class="description">String Manipulation</div>
+       </div>
+       <div id="desc18" class="desc large">A range of techniques used to manipulate text/strings using functions such as <em>UPPER()</em>, <em>LOWER()</em> to change the case of a string, <em>LENGTH()</em> to find out the number of characters of a string, <em>LEFT()</em>, <em>RIGHT()</em> and <em>SUBSTRING()</em> to extract characters from a string.<br><br><b>String concatenation:</b> joining two strings together. e.g.<br><em>PRINT("Hello " + playerName)</em></div>
+     </div>
+     <div class="periodic-element green" onclick="show('desc19');" onmouseleave="hide('desc19');">
+       <div class="periodic-element-inner">
+         <div class="title">As</div>
+         <div class="description">Assignment Operator</div>
+       </div>
+       <div id="desc19" class="desc"><b>=</b> is the assignment operator used to change the content of a variable. e.g.<br><em>score = 10</em></div>
+     </div>
+     <div class="periodic-element green" onclick="show('desc20');" onmouseleave="hide('desc20');">
+       <div class="periodic-element-inner">
+         <div class="title">Ar</div>
+         <div class="description">Arithmetic Operators</div>
+       </div>
+       <div id="desc20" class="desc"><b>+, -, *, /, ^</b> (to the power of), <b>DIV</b> (quotient, whole division), <b>MOD</b> (remainder) are the main arithmetic operators.</div>
+     </div>
+     <div class="periodic-element green" onclick="show('desc21');" onmouseleave="hide('desc21');">
+       <div class="periodic-element-inner">
+         <div class="title">Co</div>
+         <div class="description">Comparison Operators</div>
+       </div>
+       <div id="desc21" class="desc"><b>==, !=, &lt;, &lt;=, &gt;, &gt;=</b> are the main comparison operators.</div>
+     </div>
+     <div class="periodic-element green" onclick="show('desc22');" onmouseleave="hide('desc22');">
+       <div class="periodic-element-inner">
+         <div class="title">Bo</div>
+         <div class="description">Boolean Operators</div>
+       </div>
+       <div id="desc22" class="desc"><b>AND</b>, <b>OR</b>, <b>NOT</b> are the main Boolean operators.</div>
+     </div>
+     <div class="periodic-element blue" onclick="show('desc23');" onmouseleave="hide('desc23');">
+       <div class="periodic-element-inner">
+         <div class="title">Ne</div>
+         <div class="description">Nesting</div>
+       </div>
+       <div id="desc23" class="desc">When a loop or an if statement is used within another loop or if statement.</div>
+     </div>
+     <div class="periodic-element yellow" onclick="show('desc24');" onmouseleave="hide('desc24');">
+       <div class="periodic-element-inner">
+         <div class="title">Li</div>
+         <div class="description">List</div>
+       </div>
+       <div id="desc24" class="desc">When multiple values are stored under one identifier. e.g.<br><em>scores = [5,9,8,8,10,3]</em></div>
+     </div>
+     <div class="periodic-element yellow" onclick="show('desc25');" onmouseleave="hide('desc25');">
+       <div class="periodic-element-inner">
+         <div class="title">Ar</div>
+         <div class="description">Array</div>
+       </div>
+       <div id="desc25" class="desc large">When multiple values are stored under one identifier. An array has a fixed size. e.g.<br><em>days = ["Mo","Tu","We","Th","Fr","Sa","Su"]</em></div>
+     </div>
+     <div class="periodic-element yellow" onclick="show('desc26');" onmouseleave="hide('desc26');">
+       <div class="periodic-element-inner">
+         <div class="title">Re</div>
+         <div class="description">Record</div>
+       </div>
+       <div id="desc26" class="desc large">A record is a <b>collection of fields</b> used to store multiple values under one identifier. e.g.<br><em>player.firstname="James"<br>player.lastname="Bond"<br>player.score=7</em></div>
+     </div>
+     <div class="periodic-element blue" onclick="show('desc27');" onmouseleave="hide('desc27');">
+       <div class="periodic-element-inner">
+         <div class="title">Fu</div>
+         <div class="description">Function</div>
+       </div>
+       <div id="desc27" class="desc large">A subroutine/subprogram  that <b>returns a value</b>. A function has a unique name (identifier) and can take parameters. e.g.<br><em>calculateSquareArea(width)</em></div>
+     </div>
+     <div class="periodic-element blue" onclick="show('desc28');" onmouseleave="hide('desc28');">
+       <div class="periodic-element-inner">
+         <div class="title">Pr</div>
+         <div class="description">Procedure</div>
+       </div>
+       <div id="desc28" class="desc large">A subroutine/subprogram  that does <b>not</b> return a value.  A procedure has a unique name (identifier) and can take parameters. e.g.<br><em>displayMessage(text)</em></div>
+     </div>
+     <div class="periodic-element red" onclick="show('desc29');" onmouseleave="hide('desc29');">
+       <div class="periodic-element-inner">
+         <div class="title">Va</div>
+         <div class="description">Validation</div>
+       </div>
+       <div id="desc29" class="desc large">Validation checks/routines are used in programs to make systems more <b>robust</b>. User inputs are checked to ensure that these inputs are valid: e.g. a password should be at least 8 characters long, a username should not be empty, an e-mail address should contain an @ sign, a score should be a positive integer, etc. </div>
+     </div>
+     <div class="periodic-element red" onclick="show('desc30');" onmouseleave="hide('desc30');">
+       <div class="periodic-element-inner">
+         <div class="title">Te</div>
+         <div class="description">Testing</div>
+       </div>
+       <div id="desc30" class="desc large">The purpose of testing is to<ul><li>Check that the system/code is meeting the user requirements and producing the required outputs.</li><li>Try to find bugs in the code.</li></ul></div>
+     </div>
+     <div class="periodic-element red" onclick="show('desc31');" onmouseleave="hide('desc31');">
+       <div class="periodic-element-inner">
+         <div class="title">Sy</div>
+         <div class="description">Syntax Error</div>
+       </div>
+       <div id="desc31" class="desc large">When the syntax of the code is invalid due to a spelling mistake, a missing bracket or speechmark, etc. <br>A code with a syntax error will <b>not compile</b>.</div>
+     </div>
+     <div class="periodic-element red" onclick="show('desc32');" onmouseleave="hide('desc32');">
+       <div class="periodic-element-inner">
+         <div class="title">Lo</div>
+         <div class="description">Logic Error</div>
+       </div>
+       <div id="desc32" class="desc">When the code <b>does compile</b> (correct syntax) but <b>does not produce the expected output.</b></div>
+     </div>
+   </div>
+   </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+   
+   
+   </body></html>
