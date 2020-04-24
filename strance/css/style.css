@@ -3,17 +3,11 @@
   }
   
   .navbar-nav {
-     margin-top: 0; 
-  }
-  
-  a.navbar-brand {
-      color: tomato;
-      font-weight: bold;
-      font-style: italic;
-      margin-top: -5em;
+     margin-bottom:30px; 
+     color: white;
   }
 
-  .nav-item {
+  .nav-item nav-link active {
       color: tomato;
       font-size: 1rem;
       margin-top: -5em;
@@ -31,18 +25,22 @@
       text-align: center;
       font-weight: bold;
       padding-top: 5%; 
+      padding-left: 5%;
       padding-bottom: 1%;
       margin-bottom: 20px;
       margin: auto;
   
     }
-  
-    #img-pictures  {
-          border: solid lightgrey; 
-          margin: auto;
-          padding: 10px 10px;
-  
-    }
+    
+#img-pictures  {
+    border: solid lightgrey;  
+    margin: auto;
+    padding: 10px 10px;
+ }
+
+ img {
+    border: solid black;
+ }
  
 .flipCard {
 -webkit-perspective: 800;
@@ -206,7 +204,7 @@ p {
    font-style: italic;
 
 
-  }  */ */
+  }  
 
   .some-page-wrapper {
     display: flex;
@@ -228,9 +226,7 @@ p {
   }
 /*  navbar heading tabs   */
 
-
-
-//*   title for classes  */
+/*   title for classes  */
 h1,
 .title {
     color:blue;
@@ -243,8 +239,7 @@ h1,
     background-color: rgb(231, 226, 198);
   }
 
-   
-
+    
    .some-page-wrapper {
     display: flex;
     margin: 15px;
@@ -262,7 +257,7 @@ h1,
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-  } */
+  } */ 
 
 div.container {
   margin-left: 50px;
@@ -414,25 +409,7 @@ div .tl-7 {
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
   
-   .column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  } 
-  
-   .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    border: solid lightgrey; 
-  }
-    
-#heading {
-    text-align: center;
-}
 
 .list-group-item {
     text-align: center;

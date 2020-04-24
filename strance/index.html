@@ -21,25 +21,22 @@
   <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
 
        
-<nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand order-1 mr-0" href="https://www.teamtreehouse.com" target="_blank">Sponsored by Strance</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-                        
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> 
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#home">Home</a> <span class="sr-only">(current)</span>
-        <a class="nav-item nav-link" href="#about">Who We Are</a>
-        <a class="nav-item nav-link" href="#instructors">Our Instructors</a>
-        <a class="nav-item nav-link" href="#coming soon"> Events</a>
-      </div>
-    </div>
-  </div> 
+ 
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3 fixed-top">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="whoweare" class="nav-item nav-link">Who We Are</a>
+                <a href="instructors" class="nav-item nav-link">Instructors</a>
+                <a href="specialevents" class="nav-item nav-link">Special Events</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a href="#" class="nav-item nav-link">Register</a>
+                <a href="#" class="nav-item nav-link">Login</a>
+            </div>
+        </div>
+    </div>    
 </nav>
 
     <!-- Beginning of Picture Gallery -->
@@ -238,7 +235,7 @@
       <p>Want to meet the international JavaScript community and share skills with some of the world's top experts, hackers, and makers? Be the first to know what to expect for the future of JavaScript.</p>
       <p>Full Stack Conf is committed to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
     </div>
-    <div class="col-lg order-1">
+    <div class="col-lg order-lg-1">
       <h3 class="mb-4">What You'll Learn</h3>
       <div class="list-group">
         <a href="#" class="list-group-item list-group-item-action"><strong>MongoDB</strong>: NoSQL database</a>
@@ -254,6 +251,25 @@
    
     <!-- End of three column text including a list -->
      <hr>
+
+     <style>
+      .bs-example{
+          margin: 20px;        
+      }
+  </style>
+  </head>
+  <body>
+  <div class="bs-example">
+      <div class="card text-center">
+          <div class="card-header">Featured</div>
+          <div class="card-body">
+              <h5 class="card-title">NASA launches solar probe</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante.</p>
+              <a href="#" class="btn btn-primary">Know more</a>
+          </div>
+          <div class="card-footer text-muted">2 days ago</div>
+      </div>
+  </div>
      
 <div class="container pt-4">
 <!-- about -->
