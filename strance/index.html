@@ -15,39 +15,36 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
   </head>
-  <body id="home" data-spy="scroll" data-target=".navbar" navbar-light bg-light data-offset="100">
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
 
-    <!-- Navbar with added sign in or login buttons and request or information -->
-
-     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand order-1 mr-0" href="https://www.teamtreehouse.com" target="_blank">Presented by Strance</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-                           
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> 
-         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#about">Who We Are</a>
-            <a class="nav-item nav-link" href="#instructors">Instructors</a>
-            <a class="nav-item nav-link" href="#coming soon">Special Events
-          </div>
-        </div>
-        </div>
-      </div> 
-    </nav><!-- /Navbar -->
+       
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand order-1 mr-0" href="https://www.teamtreehouse.com" target="_blank">Sponsored by Strance</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                        
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#home">Home</a> <span class="sr-only">(current)</span>
+        <a class="nav-item nav-link" href="#about">Who We Are</a>
+        <a class="nav-item nav-link" href="#instructors">Our Instructors</a>
+        <a class="nav-item nav-link" href="#coming soon"> Events</a>
+      </div>
+    </div>
+  </div> 
+</nav>
 
     <!-- Beginning of Picture Gallery -->
 
-        <!-- <div class="container"> 
+         <div class="container"> 
         <h1 class="title">Welcome To Strance</h1>
         </div>
          
@@ -89,24 +86,26 @@
                 <img src="./image/Yogashadow.jpg" style="width:100%">
               </div> 
             </div>
-            </div>  -->
+            </div>  
+            <br>
+            <br>
+            <hr>
     <!--  End of Picture Gallery  -->
 
+   <!-- The start of flexbox container with flip cards -->
 
-    <!-- The start of flexbox container with outside header -->
-
-    <!-- <h1 id="speakers" class="display-4 text-center my-5 text-muted">Classes</h1>
+     <h1 id="speakers" class="display-4 text-center my-5">Classes</h1>
 
     <div class="container-container-border">
-    <div class="flex-row some-page-wrapper">
-      <div class="flex-col">
+    <div class="flex-row  some-page-wrapper">
+      <div class="flex-col-3">
           <div class="flipCard"> 
           <div class="card" onclick="this.classList.toggle('flipped');"> 
-          <a  class="side front">Click </a> 
+          <a  class="side front">Open </a> 
          <div class="card-body">
-         <h5 class="card-title-tribal text-info">yoga</h5>
+         <h5 class="card-title-tribal text-info">YOGA</h5>
              <div class="side back">
-         <h3>YOGA<br><hr></h3>
+         <h3>Yoga<br><hr></h3>
          <p> Hindu spiritual and ascetic discipline, includes breath control, simple meditation, and the adoption of specific bodily postures.</p>
               </div>
           </div>
@@ -117,12 +116,12 @@
   <div class="flex-col-3">
       <div class="flipCard"> 
           <div class="card" onclick="this.classList.toggle('flipped');"> 
-          <a  class="side front">Click </a> 
+          <a  class="side front">Open </a> 
               <div class="card-body">
-              <h5 class="card-title-tribal text-info">TRIBAL BELLYDANCE</h5>
+              <h5 class="card-title-tribal text-info">TRIBAL BELLY DANCE</h5>
               <div class="side back">
-      <h3>YOGA<br><hr></h3>
-      <p> Hindu spiritual and ascetic discipline, includes breath control, simple meditation, and the adoption of specific bodily postures.</p>
+      <h3>Tribal Belly Dance <br><hr></h3>
+      <p> A dance originating in the Middle East, typically performed by a woman and involving undulating movements of the belly and rapid gyration of the hips.</p>
                        </div>
                   </div>
               </div>
@@ -131,12 +130,12 @@
   <div class="flex-col-3">
       <div class="flipCard"> 
           <div class="card" onclick="this.classList.toggle('flipped');"> 
-          <a  class="side front">Click </a> 
+          <a  class="side front">Open </a> 
              <div class="card-body">
              <h5 class="card-title-contemporary text-info">CONTEMPORARY</h5>
                  <div class="side back">
-             <h3>YOGA<br><hr></h3>
-             <p> Hindu spiritual and ascetic discipline, includes breath control, simple meditation, and the adoption of specific bodily postures.</p>
+             <h3>Contemporary<br><hr></h3>
+             <p> A genre of dance performance developed during the mid-twentieth century and grown to become one of the dominant genres for formally trained dancers throughout the world.</p>
                   </div>
              </div>
          </div>
@@ -146,69 +145,83 @@
   <div class="flex-col-3">
       <div class="flipCard"> 
       <div class="card" onclick="this.classList.toggle('flipped');"> 
-          <a  class="side front">Click </a> 
+          <a  class="side front">Open </a> 
          <div class="card-body">
-         <h5 class="card-title-hiphop text-info">HIP HOP</h5>
+         <h5 class="card-title-ballet text-info">BALLET</h5>
              <div class="side back">
-         <h3>YOGA<br><hr></h3>
-         <p> Hindu spiritual and ascetic discipline, includes breath control, simple meditation, and the adoption of specific bodily postures.</p>
+         <h3>Ballet<br><hr></h3>
+         <p> Classical ballet originated in Renaissance Italy and an established form during the 19th century, is characterized by light, graceful, fluid movements on pointe shoes.</p>
                        </div>
                   </div>
               </div>
           </div>
       </div>
   </div>
-</div> -->
+</div> 
 
-<!-- 
-    <div class="container-container-border mb-5">
-    <div class="row">
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title-yoga text-info">YOGA</h5>
-               <a href="#" class="btn btn-light mr-1">Click</a>
-            </div>
+<div class="container-container-border">
+<div class="flex-row  some-page-wrapper">
+  <div class="flex-col-3">
+      <div class="flipCard"> 
+      <div class="card" onclick="this.classList.toggle('flipped');"> 
+      <a  class="side front">Open</a> 
+     <div class="card-body">
+     <h5 class="card-title-tribal text-info">HIP HOP</h5>
+         <div class="side back">
+     <h3>Hip Hop<br><hr></h3>
+     <p> Hindu spiritual and ascetic discipline, includes breath control, simple meditation, and the adoption of specific bodily postures.</p>
           </div>
-        </div>
-        
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title-tribal text-info">TRIBAL BELLYDANCE</h5>
-               <a href="#" class="btn btn-light mr-1">Click</a> 
-            </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="flex-col-3">
+  <div class="flipCard"> 
+      <div class="card" onclick="this.classList.toggle('flipped');"> 
+      <a  class="side front">Open</a> 
+          <div class="card-body">
+          <h5 class="card-title-tribal text-info">TRIBAL BELLY DANCE</h5>
+          <div class="side back">
+  <h3>Tribal Belly Dance <br><hr></h3>
+  <p> A dance originating in the Middle East, typically performed by a woman and involving undulating movements of the belly and rapid gyration of the hips.</p>
+                   </div>
+              </div>
           </div>
-        </div>
-      
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title-contemporary text-info">CONTEMPORARY</h5>
-              <a href="#" class="btn btn-light mr-1">Click</a> 
-            </div>
+      </div>
+  </div>
+<div class="flex-col-3">
+  <div class="flipCard"> 
+      <div class="card" onclick="this.classList.toggle('flipped');"> 
+      <a  class="side front">Open</a> 
+         <div class="card-body">
+         <h5 class="card-title-contemporary text-info">CONTEMPORARY</h5>
+             <div class="side back">
+         <h3>Contemporary<br><hr></h3>
+         <p> A genre of dance performance developed during the mid-twentieth century and grown to become one of the dominant genres for formally trained dancers throughout the world.</p>
+              </div>
+         </div>
+     </div>
+  </div>
+</div>
+
+<div class="flex-col-3">
+  <div class="flipCard"> 
+  <div class="card" onclick="this.classList.toggle('flipped');"> 
+      <a  class="side front">Open</a> 
+     <div class="card-body">
+     <h5 class="card-title-ballet text-info">BALLET</h5>
+         <div class="side back">
+     <h3>Ballet<br><hr></h3>
+     <p> Classical ballet originated in Renaissance Italy and an established form during the 19th century, is characterized by light, graceful, fluid movements on pointe shoes.</p>
+                   </div>
+              </div>
           </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title-ballet text-info">BALLET</h5>
-             <a href="#" class="btn btn-light mr-1">Click</a>  
-            </div>
-          </div>
-        </div>
-      </div><div class="row">
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title-hiphop text-info">HIP HOP</h5>
-              <a href="#" class="btn btn-light mr-1">Click</a>
-            </div>
-          </div>
-        </div> -->
+      </div>
+  </div>
        
                     <!-- End of Listing -->  
-        </div>          -->
+        </div>          
       <!-- </div> -->
     <!-- </about> -->
       
