@@ -245,27 +245,43 @@
       </div>
     </div>        
   </div>
-</div><!-- /about -->
+</div>
+<hr>
    
     <!-- End of three column text including a list -->
-     <hr>
+     <br>
 
-     <style>
-      .bs-example{
-          margin: 20px;        
-      }
-  </style>
-  </head>
-  <body>
+     
   <div class="bs-example">
       <div class="card text-center">
-          <div class="card-header">Featured</div>
+          <div class="card-header">Choose the one that best fits your desire for our newsletter, and register your information on the line below.</div>
           <div class="card-body">
-              <h5 class="card-title">NASA launches solar probe</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante.</p>
-              <a href="#" class="btn btn-primary">Know more</a>
+              <fieldset>
+                <legend>I want to receive</legend>
+                  <div>
+                    <input type="checkbox" name="newsletter" id="check_1">
+                    <label for="check_1 ml-1">The weekly newsletter</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="monthly" id="check_1">
+                    <label for="check_1">The monthly newsletter</label>
+                  </div>
+                    <input type="checkbox" name="newsletter" id="check_1">
+                    <label for="check_1">Daily Updates</label>
+                </fieldset><br>
+              <form class="form-inline" action="/action_page.php">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter email" name="email">
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" placeholder="Enter password" name="pswd">
+                <label>
+                  <input type="checkbox" name="remember"> Remember me
+                </label>
+                <button type="submit">Submit</button>
+              </form>
+              
           </div>
-          <div class="card-footer text-muted">2 days ago</div>
+          <div class="card-footer text-muted">Thank You</div>
       </div>
   </div>
      

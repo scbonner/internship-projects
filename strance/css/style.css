@@ -415,6 +415,29 @@ div .tl-7 {
     border: solid 10px rgb(54, 18, 212);
 }
 
+/*  code for registration checkbox section  */
+
+.bs-example{
+  margin: 20px;        
+}
+
+.card-header {
+  font-style: italic;
+}
+
+legend {
+  color: blue;
+  font-weight: bold;
+}
+legend, input
+.checkbox {
+  margin: auto;
+}
+
+.form-line {
+  padding: 20px;
+}
+
   /*  Flip card test  */
 
 
