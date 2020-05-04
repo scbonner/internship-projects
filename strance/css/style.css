@@ -2,6 +2,8 @@
     box-sizing: border-box;
   }
   
+  /*  navbar heading tabs   */
+  
   .navbar-nav {
      margin-bottom:30px; 
      color: white;
@@ -202,8 +204,6 @@ p {
    transform: translate(-50%, -50%);
    text-align: center;
    font-style: italic;
-
-
   }  
 
   .some-page-wrapper {
@@ -224,7 +224,7 @@ p {
     flex-basis: 100%;
     flex: 1;
   }
-/*  navbar heading tabs   */
+
 
 /*   title for classes  */
 h1,
@@ -273,7 +273,7 @@ h1,
 
 legend {
   color: blue;
-  font-weight: bold;
+  font-weight: 1em;
 }
 legend, input
 .checkbox {
@@ -291,9 +291,10 @@ legend, input
 input{ 
   padding-right: 10px;
 }
-.btn-small  {
-font-weight: bold;
-  
+
+.container pt-4 {
+
+
 }
 
  #password {
