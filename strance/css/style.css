@@ -21,7 +21,7 @@
 
   .container,
   h1  {
-      color:grey;
+      color:grey; 
       text-align: center;
       font-weight: bold;
       padding-top: 5%; 
@@ -239,139 +239,6 @@ h1,
   }
 
 
-
-div.container {
-  margin-left: 50px;
-  margin-top: 20px;
-}
-div .tr-1 {
-  position:absolute;
-  background-color:red; 
-  bottom: 10px; 
-  left: 65px;
-  z-index:auto;
-  width: 100px;
-  height: 100px;
-}
-div .tr-2 { 
-  position:absolute; 
-  background-color:green;
-  bottom: -20px; 
-  left: 95px;
-  z-index:1;
-  width: 100px;
-  height: 100px;
-}
-div .tr-3 { 
-  position:absolute; 
-  background-color:blue;
-  bottom: -60px; 
-  left: 125px;
-  z-index:2;
-  width: 100px;
-  height: 100px;
-}
-div .tr-4 { 
-  position:absolute; 
-  background-color:purple;
-  bottom: -100px; 
-  left: 155px;
-  z-index:3;
-  width: 100px;
-  height: 100px;
-}
-div .tr-5 { 
-  position:absolute; 
-  background-color:orange;
-  bottom: -130px; 
-  left: 195px;
-  z-index:4;
-  width: 100px;
-  height: 100px;
-}
-div .tr-6 { 
-  position:absolute; 
-  background-color:teal;
-  bottom: -160px; 
-  left: 225px;
-  z-index:5;
-  width: 100px;
-  height: 100px;
-} 
-div .tr-7 { 
-  position:absolute; 
-  background-color:white;
-  bottom: -190px; 
-  left: 255px;
-  z-index:6;
-  width: 100px;
-  height: 100px;
-} 
-div .tl-1 {
-  position:absolute;
-  background-color:red; 
-  bottom: 10px;
-  right: 65px;
-  z-index:auto;
-  width: 100px;
-  height: 100px;
-}
-div .tl-2 { 
-  position:absolute; 
-  background-color:green;
-  bottom: -20px; 
-  right: 95px;
-  z-index:1;
-  width: 100px;
-  height: 100px;
-}
-div .tl-3 { 
-  position:absolute; 
-  background-color:blue;
-  bottom: -60px;  
-  right: 125px;
-  z-index:2;
-  width: 100px;
-  height: 100px;
-}
-div .tl-4 { 
-  position:absolute; 
-  background-color:purple;
-  bottom: -100px; 
-  right: 155px;
-  z-index:3;
-  width: 100px;
-  height: 100px;
-}
-div .tl-5 { 
-  position:absolute; 
-  background-color:orange;
-  bottom: -130px; 
-  right: 195px;
-  z-index:4;
-  width: 100px;
-  height: 100px;
-}
-div .tl-6 { 
-  position:absolute; 
-  background-color:teal;
-  bottom: -160px; 
-  right: 225px;
-  z-index:5;
-  width: 100px;
-  height: 100px;
-} 
-div .tl-7 { 
-  position:absolute; 
-  background-color:white;
-  bottom: -190px; 
-  right: 255px;
-  z-index:6;
-  width: 100px;
-  height: 100px;
-}
-
-
   body {
     margin: 0;
     font-family: Arial;
@@ -382,30 +249,26 @@ div .tl-7 {
     padding: 32px;
   }
   
-  .row {
+  /* .row {
     display: -ms-flexbox; /* IE10 */
-    display: flex;
+    /* display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     padding: 0 4px;
-  }
-  
+  } */ 
   .list-group-item {
     background-color: rgb(231, 226, 198);
     text-align: center;
     color: black;
     font-weight: bold;
-    border: solid 10px rgb(54, 18, 212);
+    border: solid 2px rgb(54, 18, 212);
 }
 
 /*  code for registration checkbox section  */
 
 .bs-example{
-  margin: 20px;        
-}
-
-.card-header {
-  font-style: italic;
+  margin: 20px; 
+  font-style: italic;      
 }
 
 legend {
@@ -421,17 +284,21 @@ legend, input
   padding: 20px;
 }
 
+.submit {
+  font-weight: bold;
+}
+
 input{ 
   padding-right: 10px;
+}
+.btn-small  {
+font-weight: bold;
+  
 }
 
  #password {
   padding-left: 10px ;
 }
-
-  /*  Flip card test  */
-
-
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
