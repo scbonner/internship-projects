@@ -1,4 +1,7 @@
 
+* {
+    box-sizing: border-box;
+}
 
 .jumbotron {
     background: black;
@@ -18,11 +21,28 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
 
 .list-group {
-    margin: 40px;
-    /* border: 30px; */
-    font-size: 1.5em;
-    
 
+    padding: 35px;
+    border-color: black;
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+     width: 50%;
+   border: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
 }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
