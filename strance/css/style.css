@@ -110,13 +110,6 @@ h1,
     font-style: italic;
 }
 
-p {
-  background-color: #FFFFCC;
-  margin-top: 10px;
-  text-align: center;
-  font-weight: bold;
-} 
-
 .flipCard  {
    flex-wrap: wrap;    
    margin: 10px; 
@@ -234,9 +227,9 @@ h1,
     font-style: italic;
 }
 
-  a:hover .side front {
+ a:hover .side front {
     background-color: rgb(231, 226, 198);
-  }
+  } 
 
 
   body {
@@ -249,19 +242,12 @@ h1,
     padding: 32px;
   }
   
-  /* .row {
-    display: -ms-flexbox; /* IE10 */
-    /* display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    /* flex-wrap: wrap;
-    padding: 0 4px;
-  } */ 
+  
   .list-group-item {
-    background-color: rgb(231, 226, 198);
     text-align: center;
     color: black;
     font-weight: bold;
-    border: solid 2px rgb(54, 18, 212);
+    border: solid 2px black;
 }
 
 /*  code for registration checkbox section  */
@@ -269,7 +255,7 @@ h1,
 .bs-example{
   margin: 20px; 
   font-style: italic;      
-}
+} 
 
 legend {
   color: blue;
@@ -292,15 +278,17 @@ input{
   padding-right: 10px;
 }
 
-.container pt-4 {
-
-
+/* #about {
+  color: blue;
 }
 
- #password {
-  padding-left: 10px ;
-}
+
+ #expert {
+   color: teal;
+   padding-left: 10px ;
+}  */
   
+
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
