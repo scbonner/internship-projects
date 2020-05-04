@@ -1,9 +1,15 @@
+
+<section id='clock'>
+Clock Goes Here
+</section>
+<script src='js/clock.js'></script>
+
 body {
-    background: #384047;
+    background: white;
     font-family: sans-serif;
   }
   section {
-    background: #fff;
+    background: blue;
     padding: 1em;
     max-width: 400px;
     margin: 100px auto 0;
