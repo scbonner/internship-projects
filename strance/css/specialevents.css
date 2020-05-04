@@ -1,0 +1,28 @@
+
+
+.jumbotron {
+    background: black;
+    width: 100%;
+    
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lead {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.list-group {
+    margin: 40px;
+    /* border: 30px; */
+    font-size: 1.5em;
+    
+
+}
