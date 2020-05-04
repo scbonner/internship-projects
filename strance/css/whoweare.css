@@ -1,8 +1,9 @@
  
  body {
     
-    background-image: url("../image/groupinblack.jpg");
-    opacity: .5;
+    background-image: url("../image/allmen.jpg");
+    background-repeat: no-repeat;
+    /* opacity: .5; */
     font-weight: bold;
     width: 100%;
     margin: 0;
@@ -15,17 +16,19 @@ h1 {
     font-weight: bold;
 }
 
-h2 {
+/* h2 {
 text-align: center;
-color: blue;
+color:white;
 font-weight: bold;
-}
+} */
 
 .container {
     border: 5px solid blue;
     padding-top: 10px;
+    margin: auto;
 
 }
+
 p {
     font-size: 1.2em;
     color: blue;
